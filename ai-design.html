@@ -131,16 +131,6 @@
             animation: fadeIn 0.5s ease-out;
         }
         
-        /* Pro badge */
-        .pro-badge {
-            background: linear-gradient(135deg, #9333ea, #c084fc);
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 10px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
     </style>
 </head>
 <body>
@@ -176,14 +166,12 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/>
                     </svg>
                     <span>Exterior</span>
-                    <span class="ml-auto pro-badge">PRO</span>
                 </a>
                 <a href="#" class="flex items-center space-x-3 px-3 py-2 rounded-lg text-gray-400 hover:text-white hover:bg-gray-900 mb-1 transition">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
                     <span>Virtual Staging</span>
-                    <span class="ml-auto pro-badge">PRO</span>
                 </a>
                 <a href="#" class="flex items-center space-x-3 px-3 py-2 rounded-lg text-gray-400 hover:text-white hover:bg-gray-900 mb-1 transition">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -198,16 +186,6 @@
         <main class="flex-1 flex">
             <!-- Left Panel - Upload & Controls -->
             <div class="w-1/3 bg-gray-950 border-r border-gray-800 p-6 overflow-y-auto">
-                <!-- New Feature Banner -->
-                <div class="bg-gradient-to-r from-purple-900/20 to-purple-800/20 border border-purple-800/30 rounded-xl p-4 mb-6">
-                    <div class="flex items-start space-x-2">
-                        <span class="text-purple-400 text-lg">✨</span>
-                        <div>
-                            <h3 class="text-white font-medium mb-1">New Feature</h3>
-                            <p class="text-gray-400 text-sm">Shop the furniture from your renders by clicking on Shop Furniture.</p>
-                        </div>
-                    </div>
-                </div>
                 
                 <!-- Upload Section -->
                 <div class="mb-6">
@@ -263,14 +241,6 @@
                     </select>
                 </div>
                 
-                <!-- Privacy -->
-                <div class="mb-8">
-                    <label class="text-gray-400 text-sm font-medium uppercase tracking-wider mb-3 block">Privacy</label>
-                    <select class="w-full bg-gray-900 border border-gray-800 text-white rounded-lg px-4 py-3 focus:border-purple-500 focus:outline-none transition">
-                        <option>Public</option>
-                        <option>Private</option>
-                    </select>
-                </div>
                 
                 <!-- Generate Button -->
                 <button id="generateBtn" disabled class="w-full btn-primary py-4 rounded-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed transition">
