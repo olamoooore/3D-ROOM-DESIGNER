@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    appDir: false,
+    // Remove appDir as it's no longer needed in Next.js 14
   },
   env: {
     HF_API_KEY: process.env.HF_API_KEY,
