@@ -1,33 +1,44 @@
 {
-  "name": "room-designer-ai-backend",
+  "name": "room-designer-ai",
   "version": "1.0.0",
-  "description": "AI Interior Design Generator Backend for Room Designer",
+  "description": "AI Interior Design Generator with Next.js and Hugging Face",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "serve-frontend": "python3 -m http.server 3000",
     "install-deps": "npm install"
   },
   "keywords": [
     "interior-design",
     "ai",
-    "replicate",
+    "hugging-face",
     "stable-diffusion",
-    "room-designer"
+    "room-designer",
+    "nextjs"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "replicate": "^0.25.1"
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0",
     "nodemon": "^3.0.2"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   }
 }

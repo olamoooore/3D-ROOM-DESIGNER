@@ -1,6 +1,4 @@
 # Three.js-based room configurator (floor planner + product configurator)
-![image 1](./screenshots/1.JPG)
-![image 1](./screenshots/2.JPG)
 
 ### Features
 #### 1. FloorPlan Design
