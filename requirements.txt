@@ -1,0 +1,21 @@
+# Stable Diffusion and ML Dependencies (optimized for M1)
+diffusers
+transformers
+accelerate
+huggingface-hub
+
+# Image Processing
+Pillow
+opencv-python
+numpy
+
+# API and Web Server
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+
+# Utilities
+pydantic
+python-dotenv
+requests
