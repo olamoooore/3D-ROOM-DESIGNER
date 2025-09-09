@@ -38,3 +38,33 @@ temp/
 # OS files
 Thumbs.db
 desktop.ini
+
+# Python Virtual Environment (HEAVY - Don't push to Git)
+venv_sd/
+venv/
+env/
+.venv/
+*.pyc
+__pycache__/
+
+# AI Model Cache (VERY HEAVY - Don't push to Git)
+.cache/
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+
+# HuggingFace Cache (HEAVY)
+~/.cache/huggingface/
+.huggingface/
+
+# Generated Images (Keep only README)
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+!outputs/README.md
+
+# Large 3D Assets (HEAVY - Don't push to Git)
+Blueprint3D-assets/models/
+*.glb
+*.gltf
